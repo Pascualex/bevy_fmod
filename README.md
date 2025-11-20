@@ -136,10 +136,11 @@ my_game/
 │   └── <source files>
 ├── vendor/
 │   ├── fmod/
-│   │   ├── libfmod.dylib
-│   │   ├── libfmodL.dylib
-│   │   ├── libfmodstudio.dylib
-│   │   └── libfmodstudioL.dylib
+│   │   └── macos/
+│   │       ├── libfmod.dylib
+│   │       ├── libfmodL.dylib
+│   │       ├── libfmodstudio.dylib
+│   │       └── libfmodstudioL.dylib
 │   └── <other external libraries>
 └── Cargo.toml
 ```
